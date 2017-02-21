@@ -1,0 +1,15 @@
+{
+  "name": "suspiciousactivitybot",
+  "version": "1.0.0",
+  "description": "Bot App for the Suspicious Activity incident reporting",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Brian C Harrison",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.6.0",
+    "node-rest-client": "^2.5.0"
+  }
+}
