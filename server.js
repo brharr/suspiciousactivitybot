@@ -57,7 +57,7 @@ bot.dialog('/', [
 ]);
 
 function sendActivity(session) {
-    var host = 'suspicious-incident-api.azurewebsites.net';
+    var host = process.env.CUSTOMRESTURL_hotlineapi;
     var dataString = JSON.stringify({ 
         "incidentDesc": session.privateConversationData.activity,
         "vehicle": session.privateConversationData.vehicle,
